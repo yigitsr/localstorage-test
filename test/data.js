@@ -1,6 +1,6 @@
 const person = 
 {
-    age: 20,
+    age: 28,
     job: 'Software Developer',
     hobby: 'Playing Guitar'
 }
