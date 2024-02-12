@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Note Taking App</title>
+</head>
+<body>
+
+    <div class="nav">
+        <div class="input-container">
+            <input id="input-id" type="text" placeholder="add a note">
+        </div>
+
+        <div class="button-container">
+            <button onclick="addValue()" id="addButton" class="main-btn">Add note</button>
+            <button onclick="deleteValue()" id="delButton" class="main-btn">Delete note</button>
+            <button onclick="window.location.href='person/'" class="main-btn">Person Page</button>
+
+        </div>
+    </div>
+
+    <div class="notes-container">
+        <div id="input-header" class="header-class"></div>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>

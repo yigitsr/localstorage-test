@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    width: 100%;
+    height: 100vh
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    background: rgb(122, 144, 175);
+    gap: 20px
+}
+
+.input-container{
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 30%
+}
+
+.input-container input{
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+    border: none
+}
+
+.button-container{
+    /* background: blue ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 30%;
+    gap: 5%
+}
+
+.main-btn{
+    height: 100%;
+    width: 20%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: rgb(177, 207, 240);
+    color: rgb(6, 6, 56);
+    font-weight: 500
+}
+
+.main-btn:hover{
+    transition: 300ms;
+    font-weight: 700;
+    box-shadow: 0 0 3px rgb(190, 200, 211)
+}
+
+.notes-container{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80vh;
+    background: rgb(62, 67, 74)
+}
+
+.header-class{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border: 1px solid #00000060;
+    box-shadow: 0 0 5px #bbbbbb;
+    width: 30%;
+    height: 50%;
+    border-radius: 12px
+}
